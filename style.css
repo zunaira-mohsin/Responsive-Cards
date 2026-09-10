@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(244, 244, 244) , rgb(214, 205, 255));
+    height: 600px;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+   height: 600px;
+}
+.container div{
+ background-color:white;
+ width: 350px;
+ border-radius: 20px;
+}
+hr{
+margin-left: 20px;
+margin-right: 25px;
+}
+.cardImg{
+    width: 330px;
+    height: 230px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.circleImg{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content{
+display: flex;
+}
+div h1{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-left: 25px;
+}
+div p{
+color: rgb(118, 117, 117);
+margin-top: 20px;
+margin-bottom: 20px;
+ padding-left: 25px;
+ line-height: 20px;
+}
+span{
+    color: rgb(118, 117, 117);
+font-size: 14px;
+}
+h2{
+font-size: 17px;
+margin-top: 20px;
+padding-left: 10px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-image:linear-gradient(to right ,#6864f1 , #855cfc) ;
+    color: white;
+    margin-top: 25px;
+    margin-left: 23px;
+    box-shadow: 3px 3px 12px #6864f1 ;
+    cursor: pointer;
+}
