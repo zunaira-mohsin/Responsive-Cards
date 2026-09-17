@@ -5,24 +5,51 @@
 }
 body{
     background-image: linear-gradient(rgb(244, 244, 244) , rgb(214, 205, 255));
-    height: 600px;
+      min-height: 100vh;
     background-repeat: no-repeat;
     font-family: sans-serif;
     cursor: pointer;
 }
+.btn1{
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+   padding: 10px;
+    border-radius: 20px;
+    border: none;
+   background-color: rgb(237, 233, 233);
+    color: #6864f1 ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     flex-wrap: wrap;
-   height: 600px;
+    margin-top: 50px;
 }
 .container div{
  background-color:white;
  width: 350px;
  border-radius: 20px;
+box-shadow: 10px 10px 15px gray;
+ position: relative;
 }
+.box1,
+.box2,
+.box3 {
+    transition: transform 2s;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+      transform: translateY(-18px);
+}
+
 hr{
 margin-left: 20px;
 margin-right: 25px;
@@ -67,7 +94,7 @@ font-size: 17px;
 margin-top: 20px;
 padding-left: 10px;
 }
-button{
+.btn2{
     width: 100px;
     height: 35px;
     border-radius: 20px;
@@ -75,7 +102,11 @@ button{
     background-image:linear-gradient(to right ,#6864f1 , #855cfc) ;
     color: white;
     margin-top: 25px;
-    margin-left: 23px;
+    margin-left: 35px;
     box-shadow: 3px 3px 12px #6864f1 ;
     cursor: pointer;
+    transition: transform 1s;
+}
+.btn2:hover{
+    transform: scaleY(1.1);
 }
